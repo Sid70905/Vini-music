@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+  
+  /* navbar styling */
+  
+nav{
+    border-top: 2px solid red;
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #21252D;
+    transition: all 0.3s ease;
+    border-bottom: 1px solid black;
+    z-index: 998;
+    display: flex;
+    align-items: center;
+    
+}
+
+.alignCenter {
+    display: flex;
+    align-items: center;
+}
+
+.navbar{
+    display: inline-flex;
+    margin: 0 auto;
+    width: auto;
+}
+
+
+ul.menu li {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    position: relative;
+}
+
+.menu li{
+    list-style: none;
+    margin: 20px 10px;
+    
+}
+
+.menu li a{
+    color: white;
+    float: right;
+    margin-left: 10px;
+}
+
+.menu li a:hover{
+    color: #aeaeae;
+}
+
+
+nav .searchbar{
+    position: relative;
+    width: 900px;
+    height: 50px;
+    border-radius: 10px 0 0 10px ;
+    background-color: #151A1F;
+    margin-left: 30px;
+    border: 0.5px solid #3D464D;
+    padding-left: 5px;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 0 10px 10px 0;
+    background-color: #3E474E;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+body{
+    background-color: #0C0F12;
+    display: flex;
+}
+
+nav .logo{
+    margin-left: -100px;
+}
+
+
+/* Carousel styling */
+
+.carousel{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.carousel .carousel1{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 30px;
+    display: inline-flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.carousel1 .img{
+    line-height: 20px;
+    margin-top: 130px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    border-radius: 20%;
+}
+
+.img img{
+    border-radius: 20px;
+}
+
+.carousel1 button{
+    top: 26%;
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn1{
+    left: 120px;
+}
+
+.btn2{
+    right: 120px;
+}
+
+/* FOOTER */
+
+footer{
+    padding-top: 5rem;
+    font-size: 0.9rem;
+    max-width: 90%;
+    margin-left: 90px;
+}
+
+.footer_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+.footer_container > div h4{
+    margin-bottom: 1.2rem;
+    color: white;
+}
+.footer1{
+    margin: 1rem 0 0rem;
+    color: #818c94;
+}
+.footer1:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer2{
+    margin: 1rem 0 0rem;
+    color: #818c94;
+}
+.footer2:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer3{
+    margin: 1rem 0 0rem;
+    color: #818c94;
+}
+.footer3:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer4{
+    margin: 1rem 0 0rem;
+    color: #818c94;
+}
+.footer4:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer5{
+    margin: 1rem 0 0rem;
+    color: #818c94;
+}
+.footer5:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer6{
+    margin: 1rem 0 0rem;
+    color: #818c94;
+}
+.footer6:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer7{
+    margin: 1rem 0 0rem;
+    color: #818c94;
+}
+.footer7:hover{
+    color: white;
+    cursor: pointer;
+}
+.footer8{
+    margin: 1rem 0 0rem;
+    color: #818c94;
+}
+.footer8:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.footer_copyright{
+    display: flex;
+    margin-top: 1rem;
+    color: #818c94;
+    padding: 1.2rem 0;
+    border-top: 1px solid grey;
+    gap: 10rem;
+}
+
+.footer_social{
+    display: flex;
+    color: white;
+    font-weight: 600;
+    border-top: 1px solid grey;
+    align-items: center;
+}
+
+.social_about{
+    left: 0;
+    margin-top: 20px;
+}
+
+.social_icons{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.5rem;
+    list-style: none;
+    color: white;
+    margin-top: 20px;
+    margin-left: 40%;
+}
+
+.bi{
+    color: white;
+}
+
+.bi:hover{
+    color: #818c94;
+}
